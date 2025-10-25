@@ -4,6 +4,9 @@ import React from "react";
 import { About } from ".//components/About"
 import { Services } from ".//components/Services"
 import Hero from "./components/Count"
+import { Team } from "./components/OurTeam"
+import BlogCardsSection from "./components/Blog"
+import './globals.css'
 
 export default function Home() {
   return (
@@ -12,6 +15,8 @@ export default function Home() {
       <About />
       <Services />
       <Hero />
+      <Team />
+      <BlogCardsSection />
     </>
   );
 }

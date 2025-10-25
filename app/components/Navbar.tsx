@@ -25,14 +25,20 @@ export default function Navbar() {
         </div>
         <nav>
           <ul className="flex gap-8 items-center text-lime-800 text-base font-medium">
-            <li className="text-lime-500 cursor-pointer">Home</li>
+            <li className="text-lime-500 cursor-pointer">
+              <Link href="/">Home</Link>
+            </li>
             <li className="hover:text-lime-500 cursor-pointer transition-colors">Corporate Wellness</li>
             <li>
-              <Link href="/Hero" className="hover:text-lime-500 transition-colors">
-                CPR Traininginset
+              <Link href="#" className="hover:text-lime-500 transition-colors">
+                CPR Training
               </Link>
             </li>
-            <li className="hover:text-lime-500 cursor-pointer transition-colors">Medical Jobs</li>
+            <li className="hover:text-lime-500 cursor-pointer transition-colors">
+              <Link href="/Hero" className="hover:text-lime-500 transition-colors">
+                Medical Jobs
+              </Link>
+            </li>
             <li className="hover:text-lime-500 cursor-pointer transition-colors">Medical Education</li>
             <li className="hover:text-lime-500 cursor-pointer transition-colors">Health @ Home</li>
             <li className="hover:text-lime-500 cursor-pointer transition-colors">About Us</li>
